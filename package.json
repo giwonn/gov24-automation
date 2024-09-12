@@ -1,0 +1,33 @@
+{
+  "name": "gov24-automation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.7",
+    "@heroicons/react": "^2.1.5",
+    "@tauri-apps/api": "2.0.0-rc.4",
+    "next": "14.2.10",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwindcss": "^3.4.1",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.0.0-rc.13",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.10",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "typescript": "^5"
+  }
+}
